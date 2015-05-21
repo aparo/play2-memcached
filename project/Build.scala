@@ -5,8 +5,8 @@ object ApplicationBuild extends Build {
 
   val appName         = "play2-memcached"
   val appVersion      = "0.7.0"
-  val appScalaVersion = "2.10.4"
-  val appScalaCrossVersions = appScalaVersion :: "2.11.1" :: Nil
+  val appScalaVersion = "2.11.6"
+  val appScalaCrossVersions = appScalaVersion :: Nil
 
   lazy val baseSettings = Seq(
     scalaVersion := appScalaVersion,
